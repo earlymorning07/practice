@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Product Management</title>
+    <title>Earl Management</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -269,8 +269,8 @@
         <div class="d-flex align-items-center gap-3">
             <div class="brand-icon"><i class="bi bi-box-seam"></i></div>
             <div>
-                <h1 class="mb-1">Product Management</h1>
-                <p>Add, edit and organize your product catalog.</p>
+                <h1 class="mb-1">geeeeeeeeeeeeeeee</h1>
+                <p>Ageeeeeeeeeeeeeeee</p>
             </div>
         </div>
     </div>
