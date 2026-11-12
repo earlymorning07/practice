@@ -1,26 +1,17 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Controller;
-
+use App\Http\Controllers\ProductController;
 
 // READ
-Route::get('/', [Controller::class, 'index']);
-
-Route::get('/products', [Controller::class, 'index']);
-
+Route::get('/', [ProductController::class, 'index']);
+Route::get('/products', [ProductController::class, 'index']);
 
 // CREATE
-Route::get('/products/create', [Controller::class, 'create']);
-
-Route::post('/products/store', [Controller::class, 'store']);
-
+Route::post('/products/store', [ProductController::class, 'store']);
 
 // UPDATE
-Route::get('/products/edit/{id}', [Controller::class, 'edit']);
-
-Route::post('/products/update/{id}', [Controller::class, 'update']);
-
+Route::post('/products/update/{id}', [ProductController::class, 'update']);
 
 // DELETE
-Route::post('/products/delete/{id}', [Controller::class, 'destroy']);
+Route::post('/products/delete/{id}', [ProductController::class, 'destroy']);
